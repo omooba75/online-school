@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+        }
+        nav {
+            background: #0073e6;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .content-section {
+            padding: 20px;
+        }
+        .course {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        .auth-boxes {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px 0;
+        }
+        .box {
+            width: 150px;
+            height: 100px;
+            background-color: #ffffff;
+            border: 2px solid #007BFF;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.2s ease;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        .box:hover {
+            transform: scale(1.05);
+            background-color: #007BFF;
+            color: white;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #0073e6;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Online School</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="Contact Us.html">Contact</a>
+        <a href="https://www.coursera.org/" target="_blank">Learn More</a>
+    </nav>
+
+    <div class="content-section" id="home">
+        <h2>Learn Anytime, Anywhere</h2>
+        <p>Join our online courses and enhance your skills from the comfort of your home.</p>
+    </div>
+
+    <div class="content-section" id="courses">
+        <h2>Our Courses</h2>
+        <div class="course">
+            <h3>Web Development</h3>
+            <p>Learn how to build modern websites from scratch.</p>
+        </div>
+        <div class="course">
+            <h3>Graphic Design</h3>
+            <p>Master the art of visual communication and design.</p>
+        </div>
+        <div class="course">
+            <h3>Video Editing</h3>
+            <p>Learn professional video editing techniques.</p>
+        </div>
+    </div>
+
+    <!-- Login/Signup Boxes -->
+    <div class="auth-boxes">
+        <a href="Sign Up.html" class="box">Sign Up</a>
+        <a href="Login.html" class="box">Login</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Online School. All rights reserved.</p>
+    </footer>
+</body>
+</html>
